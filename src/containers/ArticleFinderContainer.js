@@ -25,7 +25,9 @@ const ArticleFinderContainer = () => {
     <ArticleFinder
       articles={filteredArticles}
       articleLength={articleLength}
+      filterText={searchText}
       handleChange={handleChange}
+      lag={4}
       searchText={searchText}
       title={'Blocking Mode Article Finder'}
     />

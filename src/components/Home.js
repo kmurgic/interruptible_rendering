@@ -9,6 +9,15 @@ const Home = () => (
     <li>
       <Link to="/concurrent">Concurrent Mode Article Finder</Link>
     </li>
+    <li>
+      <Link to="/debounced">Debounced Article Finder</Link>
+    </li>
+    <li>
+      <Link to="/debounced-fast">Debounced Article Finder (High Performance)</Link>
+    </li>
+    <li>
+      <Link to="/concurrent-fast">Concurrent Mode Article Finder (High Performance)</Link>
+    </li>
   </ul>
 )
 

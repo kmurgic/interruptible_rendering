@@ -1,13 +1,14 @@
-import React, { useDeferredValue, useMemo, useState } from 'react';
+import React, { useState, useMemo } from 'react';
+import { useDebounce } from 'use-debounce';
 import loremIpsumArticles from '../loremIpsumArticles';
 import useWindowWidth from '../hooks/useWindowWidth';
 import ArticleFinder from '../components/ArticleFinder';
 
 const ArticleFinderContainer = ({ fast }) => {
   const [searchText, setSearchText] = useState('');
-  const filterText = useDeferredValue(
+  const [filterText] = useDebounce(
     searchText,
-    { timeoutMs: 5000 },
+    1000,
   );
 
   //update article length when screensize changes
@@ -26,15 +27,15 @@ const ArticleFinderContainer = ({ fast }) => {
   ), [filterText]);
 
   const title = fast
-    ? 'Concurrent Mode Article Finder (High Performance)'
-    : 'Concurrent Mode Article Finder';
+    ? 'Debounced Article Finder (High Performance)'
+    : 'Debounced Article Finder';
 
   return (
     <ArticleFinder
       articles={filteredArticles}
       articleLength={articleLength}
-      filterText={filterText}
       handleChange={handleChange}
+      filterText={filterText}
       lag={fast ? 1 : 4}
       searchText={searchText}
       title={title}

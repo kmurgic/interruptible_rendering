@@ -21,11 +21,12 @@ const capitalize = (str) => {
 }
 
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 300; i++) {
   loremIpsumArticles.push(
     {
+      id: Math.random(),
       title: capitalize(lorem.generateWords(Math.ceil(Math.random() * 4))),
-      body: lorem.generateParagraphs(45 + Math.floor(Math.random() * 30))
+      body: lorem.generateParagraphs(2 + Math.floor(Math.random() * 2))
     }
   )
 }
