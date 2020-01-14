@@ -16,22 +16,22 @@ const App = () => {
       <h1>Interruptible Rendering (useDeferredValue) Demo</h1>
       <Router>
         <Switch>
-          <Route path="/blocking">
+          <Route path={`${process.env.PUBLIC_URL}/blocking`}>
             <BlockingArticleFinder />
           </Route>
-          <Route path="/concurrent">
+          <Route path={`${process.env.PUBLIC_URL}/concurrent`}>
             <DeferredArticleFinder />
           </Route>
-          <Route path="/debounced">
+          <Route path={`${process.env.PUBLIC_URL}/debounced`}>
             <DebouncedArticleFinder />
           </Route>
-          <Route path="/debounced-fast">
+          <Route path={`${process.env.PUBLIC_URL}/debounced-fast`}>
             <DebouncedArticleFinder fast />
           </Route>
-          <Route path="/concurrent-fast">
+          <Route path={`${process.env.PUBLIC_URL}/concurrent-fast`}>
             <DeferredArticleFinder fast />
           </Route>
-          <Route path="/">
+          <Route path={`${process.env.PUBLIC_URL}/`}>
             <Home />
           </Route>
         </Switch>

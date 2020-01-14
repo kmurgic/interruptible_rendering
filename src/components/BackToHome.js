@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const BackToHome = props => (
   <div>
-    <Link to="/">
+    <Link to={`${process.env.PUBLIC_URL}/`}>
       {'<<< Back To Home Page'}
     </Link>
   </div>
