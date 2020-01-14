@@ -1,4 +1,4 @@
-import React, { useDeferredValue, useState } from 'react'
+import React, { useDeferredValue, useState } from 'react';
 import loremIpsumArticles from '../loremIpsumArticles';
 import useWindowWidth from '../hooks/useWindowWidth';
 import ArticleFinder from '../components/ArticleFinder';
