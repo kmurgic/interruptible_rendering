@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/interruptible_rendering/static/css/main.9fb890ae.chunk.css",
+    "main.js": "/interruptible_rendering/static/js/main.0c470f79.chunk.js",
+    "main.js.map": "/interruptible_rendering/static/js/main.0c470f79.chunk.js.map",
+    "runtime-main.js": "/interruptible_rendering/static/js/runtime-main.11d94852.js",
+    "runtime-main.js.map": "/interruptible_rendering/static/js/runtime-main.11d94852.js.map",
+    "static/js/2.48b74dc8.chunk.js": "/interruptible_rendering/static/js/2.48b74dc8.chunk.js",
+    "static/js/2.48b74dc8.chunk.js.map": "/interruptible_rendering/static/js/2.48b74dc8.chunk.js.map",
+    "index.html": "/interruptible_rendering/index.html",
+    "precache-manifest.054b5364ed7592f023ea84adce7e17e2.js": "/interruptible_rendering/precache-manifest.054b5364ed7592f023ea84adce7e17e2.js",
+    "service-worker.js": "/interruptible_rendering/service-worker.js",
+    "static/css/main.9fb890ae.chunk.css.map": "/interruptible_rendering/static/css/main.9fb890ae.chunk.css.map",
+    "static/js/2.48b74dc8.chunk.js.LICENSE": "/interruptible_rendering/static/js/2.48b74dc8.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11d94852.js",
+    "static/js/2.48b74dc8.chunk.js",
+    "static/css/main.9fb890ae.chunk.css",
+    "static/js/main.0c470f79.chunk.js"
+  ]
+}
