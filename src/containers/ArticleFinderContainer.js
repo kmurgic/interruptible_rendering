@@ -6,7 +6,6 @@ import ArticleFinder from '../components/ArticleFinder';
 const ArticleFinderContainer = () => {
   const [articles, setArticles] = useState(loremIpsumArticles);
   const [searchText, setSearchText] = useState('');
-  console.log(articles);
 
   //update article length when screensize changes
   const windowWidth = useWindowWidth()
