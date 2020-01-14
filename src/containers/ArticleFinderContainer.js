@@ -27,6 +27,7 @@ const ArticleFinderContainer = () => {
       articleLength={articleLength}
       handleChange={handleChange}
       searchText={searchText}
+      title={'Blocking Mode Article Finder'}
     />
   );
 };

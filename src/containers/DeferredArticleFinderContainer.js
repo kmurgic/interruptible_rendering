@@ -31,6 +31,7 @@ const ArticleFinderContainer = () => {
       articleLength={articleLength}
       handleChange={handleChange}
       searchText={searchText}
+      title={'Concurrent Mode Article Finder'}
     />
   );
 };

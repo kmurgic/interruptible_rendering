@@ -21,7 +21,7 @@ const capitalize = (str) => {
 }
 
 
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 100; i++) {
   loremIpsumArticles.push(
     {
       title: capitalize(lorem.generateWords(Math.ceil(Math.random() * 4))),

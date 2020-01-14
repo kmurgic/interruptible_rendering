@@ -2,7 +2,7 @@ import React from 'react';
 
 const Article = props => {
   const now = performance.now();
-  while (performance.now() - now < 5) {
+  while (performance.now() - now < 3) {
     // Simulate slow loading time for articles
   }
   const { body, length, title } = props;
