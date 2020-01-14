@@ -5,14 +5,14 @@ const Home = () => (
   <ul>
     <li>
       <Link
-        to={`${process.env.PUBLIC_URL}blocking`}
+        to={`${process.env.PUBLIC_URL}/blocking`}
       >
         Blocking Mode Article Finder
       </Link>
     </li>
     <li>
       <Link
-        to={`${process.env.PUBLIC_URL}concurrent`}
+        to={`${process.env.PUBLIC_URL}/concurrent`}
       >
         Concurrent Mode Article Finder
       </Link>
